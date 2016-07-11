@@ -1,0 +1,22 @@
+{
+    "name": "ihdigital/facebook-long-lived-token",
+    "description": "Generate Facebook Long-Lived User Token",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Ye",
+            "email": "JerryYe.Dev@Gmail.Com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IHdigital\\Facebook\\": "src/"
+        }
+    }
+}
